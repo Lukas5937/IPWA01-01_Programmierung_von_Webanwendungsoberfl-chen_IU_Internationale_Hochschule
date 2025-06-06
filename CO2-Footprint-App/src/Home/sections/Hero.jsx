@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section>
+    <section className="bg-orange-100 py-20 px-8 grow">
       <div>
         <h1>CO₂ Atlas: Klimadaten auf einen Blick</h1>
         <p>
