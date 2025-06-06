@@ -1,7 +1,7 @@
 import './App.css'
 import { Routes, Route } from 'react-router'
 import Navigation from './Navigation'
-import Homepage from './Home/Homepage'
+import Homepage from './pages/home/Homepage'
 
 function App() {
   return (

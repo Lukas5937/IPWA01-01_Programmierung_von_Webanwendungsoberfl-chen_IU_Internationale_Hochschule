@@ -1,0 +1,818 @@
+[
+  {
+    "unternehmen": "EcoEnergy AG",
+    "branche": "Energie",
+    "land": "Deutschland",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 1500000,
+    "co2_emissionen_2023": 1550000
+  },
+  {
+    "unternehmen": "PowerHouse Ltd.",
+    "branche": "Energie",
+    "land": "Frankreich",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 1300000,
+    "co2_emissionen_2023": 1280000
+  },
+  {
+    "unternehmen": "SolarBright GmbH",
+    "branche": "Energie",
+    "land": "Spanien",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 750000,
+    "co2_emissionen_2023": 780000
+  },
+  {
+    "unternehmen": "WindForce Inc.",
+    "branche": "Energie",
+    "land": "USA",
+    "kontinent": "Nordamerika",
+    "co2_emissionen_2024": 1700000,
+    "co2_emissionen_2023": 1750000
+  },
+  {
+    "unternehmen": "GreenTech Solutions",
+    "branche": "Technologie",
+    "land": "USA",
+    "kontinent": "Nordamerika",
+    "co2_emissionen_2024": 2300000,
+    "co2_emissionen_2023": 2250000
+  },
+  {
+    "unternehmen": "InnoSoft AG",
+    "branche": "Technologie",
+    "land": "Deutschland",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 1200000,
+    "co2_emissionen_2023": 1250000
+  },
+  {
+    "unternehmen": "NextGen Systems",
+    "branche": "Technologie",
+    "land": "Japan",
+    "kontinent": "Asien",
+    "co2_emissionen_2024": 1900000,
+    "co2_emissionen_2023": 1850000
+  },
+  {
+    "unternehmen": "CyberSolutions",
+    "branche": "Technologie",
+    "land": "Südkorea",
+    "kontinent": "Asien",
+    "co2_emissionen_2024": 1600000,
+    "co2_emissionen_2023": 1580000
+  },
+  {
+    "unternehmen": "AgroFarms Ltd.",
+    "branche": "Landwirtschaft",
+    "land": "Brasilien",
+    "kontinent": "Südamerika",
+    "co2_emissionen_2024": 980000,
+    "co2_emissionen_2023": 1000000
+  },
+  {
+    "unternehmen": "FarmTech Co.",
+    "branche": "Landwirtschaft",
+    "land": "Argentinien",
+    "kontinent": "Südamerika",
+    "co2_emissionen_2024": 1100000,
+    "co2_emissionen_2023": 1150000
+  },
+  {
+    "unternehmen": "GreenFields Ltd.",
+    "branche": "Landwirtschaft",
+    "land": "Indien",
+    "kontinent": "Asien",
+    "co2_emissionen_2024": 1250000,
+    "co2_emissionen_2023": 1300000
+  },
+  {
+    "unternehmen": "AgriGrow Inc.",
+    "branche": "Landwirtschaft",
+    "land": "China",
+    "kontinent": "Asien",
+    "co2_emissionen_2024": 1400000,
+    "co2_emissionen_2023": 1380000
+  },
+  {
+    "unternehmen": "AutoMotive Corp.",
+    "branche": "Automobil",
+    "land": "Japan",
+    "kontinent": "Asien",
+    "co2_emissionen_2024": 3000000,
+    "co2_emissionen_2023": 3050000
+  },
+  {
+    "unternehmen": "DriveMax GmbH",
+    "branche": "Automobil",
+    "land": "Deutschland",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 2800000,
+    "co2_emissionen_2023": 2750000
+  },
+  {
+    "unternehmen": "Speedster Ltd.",
+    "branche": "Automobil",
+    "land": "USA",
+    "kontinent": "Nordamerika",
+    "co2_emissionen_2024": 3200000,
+    "co2_emissionen_2023": 3180000
+  },
+  {
+    "unternehmen": "AutoPlus Inc.",
+    "branche": "Automobil",
+    "land": "Südkorea",
+    "kontinent": "Asien",
+    "co2_emissionen_2024": 2500000,
+    "co2_emissionen_2023": 2550000
+  },
+  {
+    "unternehmen": "CleanWater Inc.",
+    "branche": "Versorgung",
+    "land": "Kanada",
+    "kontinent": "Nordamerika",
+    "co2_emissionen_2024": 500000,
+    "co2_emissionen_2023": 480000
+  },
+  {
+    "unternehmen": "PureFlow GmbH",
+    "branche": "Versorgung",
+    "land": "Deutschland",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 450000,
+    "co2_emissionen_2023": 460000
+  },
+  {
+    "unternehmen": "AquaSource Ltd.",
+    "branche": "Versorgung",
+    "land": "Australien",
+    "kontinent": "Ozeanien",
+    "co2_emissionen_2024": 400000,
+    "co2_emissionen_2023": 420000
+  },
+  {
+    "unternehmen": "WaterWorks Inc.",
+    "branche": "Versorgung",
+    "land": "Frankreich",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 470000,
+    "co2_emissionen_2023": 465000
+  },
+  {
+    "unternehmen": "TextileWorks",
+    "branche": "Textil",
+    "land": "Indien",
+    "kontinent": "Asien",
+    "co2_emissionen_2024": 1200000,
+    "co2_emissionen_2023": 1150000
+  },
+  {
+    "unternehmen": "FabricMakers Ltd.",
+    "branche": "Textil",
+    "land": "Bangladesch",
+    "kontinent": "Asien",
+    "co2_emissionen_2024": 1100000,
+    "co2_emissionen_2023": 1080000
+  },
+  {
+    "unternehmen": "ClothCo GmbH",
+    "branche": "Textil",
+    "land": "Türkei",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 1000000,
+    "co2_emissionen_2023": 980000
+  },
+  {
+    "unternehmen": "ThreadWorks Inc.",
+    "branche": "Textil",
+    "land": "Pakistan",
+    "kontinent": "Asien",
+    "co2_emissionen_2024": 950000,
+    "co2_emissionen_2023": 970000
+  },
+  {
+    "unternehmen": "SteelMakers",
+    "branche": "Metallverarbeitung",
+    "land": "Südafrika",
+    "kontinent": "Afrika",
+    "co2_emissionen_2024": 1800000,
+    "co2_emissionen_2023": 1820000
+  },
+  {
+    "unternehmen": "MetalWorks Ltd.",
+    "branche": "Metallverarbeitung",
+    "land": "China",
+    "kontinent": "Asien",
+    "co2_emissionen_2024": 2200000,
+    "co2_emissionen_2023": 2250000
+  },
+  {
+    "unternehmen": "IronForge GmbH",
+    "branche": "Metallverarbeitung",
+    "land": "USA",
+    "kontinent": "Nordamerika",
+    "co2_emissionen_2024": 2100000,
+    "co2_emissionen_2023": 2150000
+  },
+  {
+    "unternehmen": "MetalPro Inc.",
+    "branche": "Metallverarbeitung",
+    "land": "Russland",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 1950000,
+    "co2_emissionen_2023": 1980000
+  },
+  {
+    "unternehmen": "Foodies Corp.",
+    "branche": "Lebensmittel",
+    "land": "Australien",
+    "kontinent": "Ozeanien",
+    "co2_emissionen_2024": 650000,
+    "co2_emissionen_2023": 640000
+  },
+  {
+    "unternehmen": "FreshFoods Ltd.",
+    "branche": "Lebensmittel",
+    "land": "Brasilien",
+    "kontinent": "Südamerika",
+    "co2_emissionen_2024": 700000,
+    "co2_emissionen_2023": 720000
+  },
+  {
+    "unternehmen": "NutriCo GmbH",
+    "branche": "Lebensmittel",
+    "land": "Kanada",
+    "kontinent": "Nordamerika",
+    "co2_emissionen_2024": 680000,
+    "co2_emissionen_2023": 670000
+  },
+  {
+    "unternehmen": "FoodHarvest Inc.",
+    "branche": "Lebensmittel",
+    "land": "Frankreich",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 620000,
+    "co2_emissionen_2023": 600000
+  },
+  {
+    "unternehmen": "VoltEnergy AG",
+    "branche": "Energie",
+    "land": "Italien",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 1400000,
+    "co2_emissionen_2023": 1420000
+  },
+  {
+    "unternehmen": "HydroPower Ltd.",
+    "branche": "Energie",
+    "land": "Norwegen",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 900000,
+    "co2_emissionen_2023": 920000
+  },
+  {
+    "unternehmen": "EcoFuel Corp.",
+    "branche": "Energie",
+    "land": "Mexiko",
+    "kontinent": "Nordamerika",
+    "co2_emissionen_2024": 1600000,
+    "co2_emissionen_2023": 1650000
+  },
+  {
+    "unternehmen": "BrightTech GmbH",
+    "branche": "Technologie",
+    "land": "Kanada",
+    "kontinent": "Nordamerika",
+    "co2_emissionen_2024": 1800000,
+    "co2_emissionen_2023": 1750000
+  },
+  {
+    "unternehmen": "QuantumSoft Ltd.",
+    "branche": "Technologie",
+    "land": "Israel",
+    "kontinent": "Asien",
+    "co2_emissionen_2024": 1500000,
+    "co2_emissionen_2023": 1480000
+  },
+  {
+    "unternehmen": "DataLink Inc.",
+    "branche": "Technologie",
+    "land": "Singapur",
+    "kontinent": "Asien",
+    "co2_emissionen_2024": 1350000,
+    "co2_emissionen_2023": 1320000
+  },
+  {
+    "unternehmen": "AgriPro Farms",
+    "branche": "Landwirtschaft",
+    "land": "Chile",
+    "kontinent": "Südamerika",
+    "co2_emissionen_2024": 1050000,
+    "co2_emissionen_2023": 1080000
+  },
+  {
+    "unternehmen": "GreenHarvest Ltd.",
+    "branche": "Landwirtschaft",
+    "land": "Peru",
+    "kontinent": "Südamerika",
+    "co2_emissionen_2024": 970000,
+    "co2_emissionen_2023": 940000
+  },
+  {
+    "unternehmen": "FarmFresh Co.",
+    "branche": "Landwirtschaft",
+    "land": "Thailand",
+    "kontinent": "Asien",
+    "co2_emissionen_2024": 1120000,
+    "co2_emissionen_2023": 1140000
+  },
+  {
+    "unternehmen": "CropGrow Inc.",
+    "branche": "Landwirtschaft",
+    "land": "Malaysia",
+    "kontinent": "Asien",
+    "co2_emissionen_2024": 1030000,
+    "co2_emissionen_2023": 1020000
+  },
+  {
+    "unternehmen": "AutoDrive Ltd.",
+    "branche": "Automobil",
+    "land": "Italien",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 2700000,
+    "co2_emissionen_2023": 2650000
+  },
+  {
+    "unternehmen": "MotorWorks GmbH",
+    "branche": "Automobil",
+    "land": "USA",
+    "kontinent": "Nordamerika",
+    "co2_emissionen_2024": 3100000,
+    "co2_emissionen_2023": 3120000
+  },
+  {
+    "unternehmen": "SpeedAuto Inc.",
+    "branche": "Automobil",
+    "land": "China",
+    "kontinent": "Asien",
+    "co2_emissionen_2024": 2900000,
+    "co2_emissionen_2023": 2880000
+  },
+  {
+    "unternehmen": "DrivePro Co.",
+    "branche": "Automobil",
+    "land": "Russland",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 2600000,
+    "co2_emissionen_2023": 2620000
+  },
+  {
+    "unternehmen": "FreshWater Ltd.",
+    "branche": "Versorgung",
+    "land": "Südafrika",
+    "kontinent": "Afrika",
+    "co2_emissionen_2024": 430000,
+    "co2_emissionen_2023": 420000
+  },
+  {
+    "unternehmen": "ClearStream Inc.",
+    "branche": "Versorgung",
+    "land": "Neuseeland",
+    "kontinent": "Ozeanien",
+    "co2_emissionen_2024": 480000,
+    "co2_emissionen_2023": 485000
+  },
+  {
+    "unternehmen": "PureLife GmbH",
+    "branche": "Versorgung",
+    "land": "Belgien",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 460000,
+    "co2_emissionen_2023": 450000
+  },
+  {
+    "unternehmen": "AquaPure Ltd.",
+    "branche": "Versorgung",
+    "land": "Japan",
+    "kontinent": "Asien",
+    "co2_emissionen_2024": 500000,
+    "co2_emissionen_2023": 495000
+  },
+  {
+    "unternehmen": "FabricSoft Inc.",
+    "branche": "Textil",
+    "land": "Vietnam",
+    "kontinent": "Asien",
+    "co2_emissionen_2024": 980000,
+    "co2_emissionen_2023": 970000
+  },
+  {
+    "unternehmen": "WeaveWorks GmbH",
+    "branche": "Textil",
+    "land": "Bangladesch",
+    "kontinent": "Asien",
+    "co2_emissionen_2024": 1020000,
+    "co2_emissionen_2023": 1010000
+  },
+  {
+    "unternehmen": "ThreadLine Ltd.",
+    "branche": "Textil",
+    "land": "Polen",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 940000,
+    "co2_emissionen_2023": 930000
+  },
+  {
+    "unternehmen": "CottonField Inc.",
+    "branche": "Textil",
+    "land": "Ägypten",
+    "kontinent": "Afrika",
+    "co2_emissionen_2024": 900000,
+    "co2_emissionen_2023": 910000
+  },
+  {
+    "unternehmen": "MetalWorks AG",
+    "branche": "Metallverarbeitung",
+    "land": "Kanada",
+    "kontinent": "Nordamerika",
+    "co2_emissionen_2024": 2000000,
+    "co2_emissionen_2023": 1980000
+  },
+  {
+    "unternehmen": "SteelForge Ltd.",
+    "branche": "Metallverarbeitung",
+    "land": "Australien",
+    "kontinent": "Ozeanien",
+    "co2_emissionen_2024": 1850000,
+    "co2_emissionen_2023": 1870000
+  },
+  {
+    "unternehmen": "IronClad GmbH",
+    "branche": "Metallverarbeitung",
+    "land": "Brasilien",
+    "kontinent": "Südamerika",
+    "co2_emissionen_2024": 1900000,
+    "co2_emissionen_2023": 1930000
+  },
+  {
+    "unternehmen": "MetalPro Inc.",
+    "branche": "Metallverarbeitung",
+    "land": "Indien",
+    "kontinent": "Asien",
+    "co2_emissionen_2024": 1750000,
+    "co2_emissionen_2023": 1740000
+  },
+  {
+    "unternehmen": "NutriFresh Ltd.",
+    "branche": "Lebensmittel",
+    "land": "Mexiko",
+    "kontinent": "Nordamerika",
+    "co2_emissionen_2024": 700000,
+    "co2_emissionen_2023": 720000
+  },
+  {
+    "unternehmen": "HealthyEats GmbH",
+    "branche": "Lebensmittel",
+    "land": "Frankreich",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 680000,
+    "co2_emissionen_2023": 670000
+  },
+  {
+    "unternehmen": "FarmToTable Inc.",
+    "branche": "Lebensmittel",
+    "land": "Chile",
+    "kontinent": "Südamerika",
+    "co2_emissionen_2024": 640000,
+    "co2_emissionen_2023": 630000
+  },
+  {
+    "unternehmen": "GreenFoods Ltd.",
+    "branche": "Lebensmittel",
+    "land": "Neuseeland",
+    "kontinent": "Ozeanien",
+    "co2_emissionen_2024": 600000,
+    "co2_emissionen_2023": 610000
+  },
+  {
+    "unternehmen": "SunPower AG",
+    "branche": "Energie",
+    "land": "Portugal",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 1350000,
+    "co2_emissionen_2023": 1380000
+  },
+  {
+    "unternehmen": "EcoVolt Ltd.",
+    "branche": "Energie",
+    "land": "Belgien",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 1250000,
+    "co2_emissionen_2023": 1230000
+  },
+  {
+    "unternehmen": "HydroGen Corp.",
+    "branche": "Energie",
+    "land": "Finnland",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 1100000,
+    "co2_emissionen_2023": 1120000
+  },
+  {
+    "unternehmen": "TechNova GmbH",
+    "branche": "Technologie",
+    "land": "Schweden",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 1450000,
+    "co2_emissionen_2023": 1400000
+  },
+  {
+    "unternehmen": "SoftWave Ltd.",
+    "branche": "Technologie",
+    "land": "Irland",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 1300000,
+    "co2_emissionen_2023": 1280000
+  },
+  {
+    "unternehmen": "CloudSync Inc.",
+    "branche": "Technologie",
+    "land": "Neuseeland",
+    "kontinent": "Ozeanien",
+    "co2_emissionen_2024": 1200000,
+    "co2_emissionen_2023": 1150000
+  },
+  {
+    "unternehmen": "AgroGreen Farms",
+    "branche": "Landwirtschaft",
+    "land": "Kolumbien",
+    "kontinent": "Südamerika",
+    "co2_emissionen_2024": 1000000,
+    "co2_emissionen_2023": 1020000
+  },
+  {
+    "unternehmen": "HarvestPlus Ltd.",
+    "branche": "Landwirtschaft",
+    "land": "Ecuador",
+    "kontinent": "Südamerika",
+    "co2_emissionen_2024": 950000,
+    "co2_emissionen_2023": 940000
+  },
+  {
+    "unternehmen": "FarmersChoice Co.",
+    "branche": "Landwirtschaft",
+    "land": "Philippinen",
+    "kontinent": "Asien",
+    "co2_emissionen_2024": 1050000,
+    "co2_emissionen_2023": 1070000
+  },
+  {
+    "unternehmen": "CropMaster Inc.",
+    "branche": "Landwirtschaft",
+    "land": "Indonesien",
+    "kontinent": "Asien",
+    "co2_emissionen_2024": 980000,
+    "co2_emissionen_2023": 970000
+  },
+  {
+    "unternehmen": "DriveLine GmbH",
+    "branche": "Automobil",
+    "land": "Tschechien",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 2550000,
+    "co2_emissionen_2023": 2580000
+  },
+  {
+    "unternehmen": "AutoCraft Ltd.",
+    "branche": "Automobil",
+    "land": "Ungarn",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 2650000,
+    "co2_emissionen_2023": 2620000
+  },
+  {
+    "unternehmen": "MotorX Inc.",
+    "branche": "Automobil",
+    "land": "Mexiko",
+    "kontinent": "Nordamerika",
+    "co2_emissionen_2024": 2750000,
+    "co2_emissionen_2023": 2780000
+  },
+  {
+    "unternehmen": "RoadStar Co.",
+    "branche": "Automobil",
+    "land": "Thailand",
+    "kontinent": "Asien",
+    "co2_emissionen_2024": 2800000,
+    "co2_emissionen_2023": 2830000
+  },
+  {
+    "unternehmen": "AquaPure GmbH",
+    "branche": "Versorgung",
+    "land": "Österreich",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 480000,
+    "co2_emissionen_2023": 475000
+  },
+  {
+    "unternehmen": "ClearWater Ltd.",
+    "branche": "Versorgung",
+    "land": "Schweiz",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 470000,
+    "co2_emissionen_2023": 465000
+  },
+  {
+    "unternehmen": "BlueFlow Inc.",
+    "branche": "Versorgung",
+    "land": "Dänemark",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 460000,
+    "co2_emissionen_2023": 455000
+  },
+  {
+    "unternehmen": "WaterNet Co.",
+    "branche": "Versorgung",
+    "land": "Island",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 490000,
+    "co2_emissionen_2023": 495000
+  },
+  {
+    "unternehmen": "ThreadLine GmbH",
+    "branche": "Textil",
+    "land": "Marokko",
+    "kontinent": "Afrika",
+    "co2_emissionen_2024": 930000,
+    "co2_emissionen_2023": 940000
+  },
+  {
+    "unternehmen": "ClothCraft Ltd.",
+    "branche": "Textil",
+    "land": "Tunesien",
+    "kontinent": "Afrika",
+    "co2_emissionen_2024": 920000,
+    "co2_emissionen_2023": 910000
+  },
+  {
+    "unternehmen": "FabricArt Inc.",
+    "branche": "Textil",
+    "land": "Kroatien",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 900000,
+    "co2_emissionen_2023": 890000
+  },
+  {
+    "unternehmen": "CottonLine Co.",
+    "branche": "Textil",
+    "land": "Slowenien",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 880000,
+    "co2_emissionen_2023": 875000
+  },
+  {
+    "unternehmen": "MetalForge GmbH",
+    "branche": "Metallverarbeitung",
+    "land": "Polen",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 1850000,
+    "co2_emissionen_2023": 1800000
+  },
+  {
+    "unternehmen": "SteelCraft Ltd.",
+    "branche": "Metallverarbeitung",
+    "land": "Tschechien",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 1900000,
+    "co2_emissionen_2023": 1920000
+  },
+  {
+    "unternehmen": "IronWorks Inc.",
+    "branche": "Metallverarbeitung",
+    "land": "Ungarn",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 1750000,
+    "co2_emissionen_2023": 1700000
+  },
+  {
+    "unternehmen": "MetalTech Co.",
+    "branche": "Metallverarbeitung",
+    "land": "Slowakei",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 1800000,
+    "co2_emissionen_2023": 1780000
+  },
+  {
+    "unternehmen": "FoodHarvest Ltd.",
+    "branche": "Lebensmittel",
+    "land": "Norwegen",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 610000,
+    "co2_emissionen_2023": 600000
+  },
+  {
+    "unternehmen": "FreshBite GmbH",
+    "branche": "Lebensmittel",
+    "land": "Schweden",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 630000,
+    "co2_emissionen_2023": 625000
+  },
+  {
+    "unternehmen": "NutriFoods Inc.",
+    "branche": "Lebensmittel",
+    "land": "Finnland",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 620000,
+    "co2_emissionen_2023": 615000
+  },
+  {
+    "unternehmen": "GreenEats Co.",
+    "branche": "Lebensmittel",
+    "land": "Island",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 600000,
+    "co2_emissionen_2023": 590000
+  },
+  {
+    "unternehmen": "Solaris Energy",
+    "branche": "Energie",
+    "land": "Dänemark",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 1250000,
+    "co2_emissionen_2023": 1270000
+  },
+  {
+    "unternehmen": "NextGen Tech",
+    "branche": "Technologie",
+    "land": "Niederlande",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 1380000,
+    "co2_emissionen_2023": 1350000
+  },
+  {
+    "unternehmen": "AgroPure Farms",
+    "branche": "Landwirtschaft",
+    "land": "Argentinien",
+    "kontinent": "Südamerika",
+    "co2_emissionen_2024": 1020000,
+    "co2_emissionen_2023": 1040000
+  },
+  {
+    "unternehmen": "AutoMotive Solutions",
+    "branche": "Automobil",
+    "land": "Südkorea",
+    "kontinent": "Asien",
+    "co2_emissionen_2024": 2850000,
+    "co2_emissionen_2023": 2900000
+  },
+  {
+    "unternehmen": "ClearFlow Water",
+    "branche": "Versorgung",
+    "land": "Irland",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 460000,
+    "co2_emissionen_2023": 455000
+  },
+  {
+    "unternehmen": "FiberCraft Textiles",
+    "branche": "Textil",
+    "land": "Portugal",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 890000,
+    "co2_emissionen_2023": 880000
+  },
+  {
+    "unternehmen": "MetalMasters",
+    "branche": "Metallverarbeitung",
+    "land": "Rumänien",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 1780000,
+    "co2_emissionen_2023": 1750000
+  },
+  {
+    "unternehmen": "FreshHarvest Foods",
+    "branche": "Lebensmittel",
+    "land": "Dänemark",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 615000,
+    "co2_emissionen_2023": 620000
+  },
+  {
+    "unternehmen": "EcoVolt Renewables",
+    "branche": "Energie",
+    "land": "Estland",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 1180000,
+    "co2_emissionen_2023": 1200000
+  },
+  {
+    "unternehmen": "TechWave Innovations",
+    "branche": "Technologie",
+    "land": "Belgien",
+    "kontinent": "Europa",
+    "co2_emissionen_2024": 1320000,
+    "co2_emissionen_2023": 1300000
+  }
+]
