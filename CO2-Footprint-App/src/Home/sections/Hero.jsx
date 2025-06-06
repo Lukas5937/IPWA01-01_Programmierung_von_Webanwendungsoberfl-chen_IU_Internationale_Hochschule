@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="py-24 px-12 grow bg-slate-50">
+    <section className="py-24 px-12 w-full bg-slate-50">
       <div className="max-w-4xl">
         <img
           src="../../assets/C02-Atlas.png"
