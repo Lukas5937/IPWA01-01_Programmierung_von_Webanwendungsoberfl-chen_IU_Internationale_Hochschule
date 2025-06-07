@@ -29,7 +29,7 @@ export default function useDataProcessor() {
     return data.filter((item) => item[criterion] === value)
   }
 
-  function getco2_change_in_percent(emissionsYear1, emissionsYear2) {
+  function getco2_change(emissionsYear1, emissionsYear2) {
     const absoluteChange = emissionsYear1 - emissionsYear2
     const percentageChange = (absoluteChange / emissionsYear2) * 100
     return Number(percentageChange.toFixed(2))
@@ -38,14 +38,14 @@ export default function useDataProcessor() {
   function formatRawData(rawData) {
     return rawData.map(
       ({ co2_emissionen_2024, co2_emissionen_2023, ...rest }) => {
-        const co2_change_in_percent = getco2_change_in_percent(
+        const co2_change = getco2_change(
           co2_emissionen_2024,
           co2_emissionen_2023
         )
         return {
           ...rest,
           co2_emissionen_2024,
-          co2_change_in_percent: co2_change_in_percent,
+          co2_change: co2_change,
         }
       }
     )

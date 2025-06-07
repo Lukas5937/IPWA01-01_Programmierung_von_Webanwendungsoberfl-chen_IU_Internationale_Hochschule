@@ -19,7 +19,7 @@ export default function EmissionData() {
     land: null,
     kontinent: null,
     co2_emissionen_2024: null,
-    co2_change_in_percent: null,
+    co2_change: null,
   })
 
   console.log('filterData: ', filterData)
@@ -33,7 +33,7 @@ export default function EmissionData() {
       land: null,
       kontinent: null,
       co2_emissionen_2024: null,
-      co2_change_in_percent: null,
+      co2_change: null,
       [criterion]: newOrder,
     }))
     return newOrder
@@ -45,33 +45,33 @@ export default function EmissionData() {
     setData((prevData) => {
       return sortData(prevData, criterion, newOrder)
     })
-    console.log('sortSettings: ', sortSettings)
   }
 
   function addSortButton(label) {
+    const criterion = label.toLowerCase()
     return (
       <IconButton
         aria-label={
-          sortSettings.unternehmen === 'asc'
+          sortSettings[criterion] === 'asc'
             ? `Sortiere ${label} aufsteigend`
             : `Sortiere ${label} absteigend`
         }
         size="small"
-        onClick={() => sortList(label.toLowerCase())}
+        onClick={() => sortList(criterion)}
       >
-        {sortSettings[label] === 'asc' ? (
-          <ArrowDownwardIcon fontSize="inherit" color="#d0fae5" />
+        {sortSettings[criterion] === 'asc' ? (
+          <ArrowDownwardIcon fontSize="inherit" style={{ color: '#cad5e2' }} />
         ) : (
-          <ArrowUpwardIcon fontSize="inherit" color="#d0fae5" />
+          <ArrowUpwardIcon fontSize="inherit" style={{ color: '#cad5e2' }} />
         )}
       </IconButton>
     )
   }
 
   return (
-    <div className="bg-[#2e6061] py-24 px-12 text-emerald-100">
+    <div className="bg-[#2e6061] py-24 px-12 ">
       <table>
-        <thead>
+        <thead className="text-slate-300">
           <tr className="border-b border-emerald-100">
             <th scope="col">
               <div className="flex items-center text-left">
@@ -99,27 +99,27 @@ export default function EmissionData() {
             </th>
             <th scope="col">
               <div className="flex items-center text-left">
-                Emissionen 2024 (t CO₂)
+                Emissionen 2024
                 {addSortButton('co2_emissionen_2024')}
               </div>
             </th>
             <th scope="col">
               <div className="flex items-center text-left">
-                Veränderung zum Vorjahr (%)
-                {addSortButton('co2_change_in_percent')}
+                Veränderung zum Vorjahr
+                {addSortButton('co2_change')}
               </div>
             </th>
           </tr>
         </thead>
-        <tbody className="text-sm">
+        <tbody className="text-sm text-emerald-100">
           {data.map((item) => (
             <tr key={item.unternehmen}>
-              <td className="pr-8 py-2">{item.unternehmen}</td>
+              <td className="pr-8 pt-4 pb-2">{item.unternehmen}</td>
               <td className="pr-8 py-2">{item.branche}</td>
               <td className="pr-8 py-2">{item.land}</td>
               <td className="pr-8 py-2">{item.kontinent}</td>
-              <td className="pr-8 py-2">{item.co2_emissionen_2024}</td>
-              <td className="pr-8 py-2">{item.co2_change_in_percent}</td>
+              <td className="pr-8 py-2">{item.co2_emissionen_2024} t CO₂</td>
+              <td className="pr-8 py-2">{item.co2_change} %</td>
             </tr>
           ))}
         </tbody>
