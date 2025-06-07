@@ -1,4 +1,4 @@
-import SideNavigation from './SideNavigation'
+import SideNavigation from './components/SideNavigation'
 import Hero from './sections/Hero'
 import EmissionData from './sections/EmissionData'
 import Footer from './sections/Footer'
