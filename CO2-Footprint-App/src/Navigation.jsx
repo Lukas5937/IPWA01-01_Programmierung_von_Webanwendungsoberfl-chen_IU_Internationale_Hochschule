@@ -4,16 +4,16 @@ export default function Navigation() {
   return (
     <>
       <header>
-        <nav className="p-4 bg-blue-100">
+        <nav className="p-4 bg-slate-200 text-slate-700">
           <ul className="flex  w-full">
-            <li className="ml-auto hover:text-neutral-500">
+            <li className="ml-auto hover:text-slate-500">
               <Link to="/">Instagram</Link>
             </li>
-            <li className="ml-4 hover:text-neutral-500">
+            <li className="ml-4 hover:text-slate-500">
               <Link to="/">Facebook</Link>
             </li>
-            <li className="ml-4 hover:text-neutral-500">
-              <Link to="/kontakt">Kontakt</Link>
+            <li className="ml-4 hover:text-slate-500">
+              <Link to="mailto:co2atlas@beispiel.de">Email</Link>
             </li>
           </ul>
         </nav>

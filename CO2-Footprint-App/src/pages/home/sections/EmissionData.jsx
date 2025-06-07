@@ -19,7 +19,7 @@ export default function EmissionData() {
     land: null,
     kontinent: null,
     co2_emissionen_2024: null,
-    co2ChangeInPercent: null,
+    co2_change_in_percent: null,
   })
 
   console.log('filterData: ', filterData)
@@ -33,7 +33,7 @@ export default function EmissionData() {
       land: null,
       kontinent: null,
       co2_emissionen_2024: null,
-      co2ChangeInPercent: null,
+      co2_change_in_percent: null,
       [criterion]: newOrder,
     }))
     return newOrder
@@ -60,66 +60,66 @@ export default function EmissionData() {
         onClick={() => sortList(label.toLowerCase())}
       >
         {sortSettings[label] === 'asc' ? (
-          <ArrowDownwardIcon fontSize="inherit" />
+          <ArrowDownwardIcon fontSize="inherit" color="#d0fae5" />
         ) : (
-          <ArrowUpwardIcon fontSize="inherit" />
+          <ArrowUpwardIcon fontSize="inherit" color="#d0fae5" />
         )}
       </IconButton>
     )
   }
 
   return (
-    <div className="bg-amber-300 py-24 px-12">
+    <div className="bg-[#2e6061] py-24 px-12 text-emerald-100">
       <table>
         <thead>
-          <tr className="py-2 ">
-            <th scope="col" className="px-2">
-              <div className="flex items-center">
+          <tr className="border-b border-emerald-100">
+            <th scope="col">
+              <div className="flex items-center text-left">
                 Unternehmen
-                {addSortButton('unternehmen')}
+                {addSortButton('Unternehmen')}
               </div>
             </th>
-            <th scope="col" className="px-2">
-              <div className="flex items-center">
+            <th scope="col">
+              <div className="flex items-center text-left">
                 Branche
-                {addSortButton('branche')}
+                {addSortButton('Branche')}
               </div>
             </th>
-            <th scope="col" className="px-2">
-              <div className="flex items-center">
+            <th scope="col">
+              <div className="flex items-center text-left">
                 Land
-                {addSortButton('land')}
+                {addSortButton('Land')}
               </div>
             </th>
-            <th scope="col" className="px-2">
-              <div className="flex items-center">
+            <th scope="col">
+              <div className="flex items-center text-left">
                 Kontinent
-                {addSortButton('kontinent')}
+                {addSortButton('Kontinent')}
               </div>
             </th>
-            <th scope="col" className="px-2">
-              <div className="flex items-center">
+            <th scope="col">
+              <div className="flex items-center text-left">
                 Emissionen 2024 (t CO₂)
                 {addSortButton('co2_emissionen_2024')}
               </div>
             </th>
-            <th scope="col" className="px-2">
-              <div className="flex items-center">
+            <th scope="col">
+              <div className="flex items-center text-left">
                 Veränderung zum Vorjahr (%)
-                {addSortButton('co2ChangeInPercent')}
+                {addSortButton('co2_change_in_percent')}
               </div>
             </th>
           </tr>
         </thead>
-        <tbody>
+        <tbody className="text-sm">
           {data.map((item) => (
             <tr key={item.unternehmen}>
-              <td>{item.unternehmen}</td>
-              <td>{item.branche}</td>
-              <td>{item.land}</td>
-              <td>{item.kontinent}</td>
-              <td>{item.co2_emissionen_2024}</td>
-              <td>{item.co2ChangeInPercent}</td>
+              <td className="pr-8 py-2">{item.unternehmen}</td>
+              <td className="pr-8 py-2">{item.branche}</td>
+              <td className="pr-8 py-2">{item.land}</td>
+              <td className="pr-8 py-2">{item.kontinent}</td>
+              <td className="pr-8 py-2">{item.co2_emissionen_2024}</td>
+              <td className="pr-8 py-2">{item.co2_change_in_percent}</td>
             </tr>
           ))}
         </tbody>
