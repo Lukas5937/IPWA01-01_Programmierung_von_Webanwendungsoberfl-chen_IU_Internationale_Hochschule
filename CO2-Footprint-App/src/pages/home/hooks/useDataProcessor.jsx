@@ -25,30 +25,35 @@ export default function useDataProcessor() {
     })
   }
 
-  function filterData(data, criterion, value) {
-    return data.filter((item) => item[criterion] === value)
+  function filterData(data, filters) {
+    return data.filter((item) => {
+      for (const key in filters) {
+        const filterValue = filters[key]
+        const itemValue = item[key]
+
+        if (filterValue !== '' && itemValue !== filterValue) {
+          return false
+        }
+      }
+      return true
+    })
   }
 
-  function getco2_change(emissionsYear1, emissionsYear2) {
+  function getco2Change(emissionsYear1, emissionsYear2) {
     const absoluteChange = emissionsYear1 - emissionsYear2
     const percentageChange = (absoluteChange / emissionsYear2) * 100
     return Number(percentageChange.toFixed(2))
   }
 
   function formatRawData(rawData) {
-    return rawData.map(
-      ({ co2_emissionen_2024, co2_emissionen_2023, ...rest }) => {
-        const co2_change = getco2_change(
-          co2_emissionen_2024,
-          co2_emissionen_2023
-        )
-        return {
-          ...rest,
-          co2_emissionen_2024,
-          co2_change: co2_change,
-        }
+    return rawData.map(({ emissionen2024, emissionen2023, ...rest }) => {
+      const co2Change = getco2Change(emissionen2024, emissionen2023)
+      return {
+        ...rest,
+        emissionen2024,
+        veraenderungVorjahr: co2Change,
       }
-    )
+    })
   }
 
   return {

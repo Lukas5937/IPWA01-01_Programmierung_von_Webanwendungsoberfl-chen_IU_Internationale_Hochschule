@@ -4,432 +4,432 @@
     "branche": "Maschinenbau",
     "land": "Deutschland",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 95000,
-    "co2_emissionen_2023": 109250
+    "emissionen2024": 95000,
+    "emissionen2023": 109250
   },
   {
     "unternehmen": "GreenFields Renewable Energy",
     "branche": "Erneuerbare Energien",
     "land": "USA",
     "kontinent": "Nordamerika",
-    "co2_emissionen_2024": 1200,
-    "co2_emissionen_2023": 1385
+    "emissionen2024": 1200,
+    "emissionen2023": 1385
   },
   {
     "unternehmen": "Shenzhen Tech Solutions",
     "branche": "Elektronikfertigung",
     "land": "China",
     "kontinent": "Asien",
-    "co2_emissionen_2024": 48000,
-    "co2_emissionen_2023": 55200
+    "emissionen2024": 48000,
+    "emissionen2023": 55200
   },
   {
     "unternehmen": "Nordic Clean Water AB",
     "branche": "Wasseraufbereitung",
     "land": "Schweden",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 4000,
-    "co2_emissionen_2023": 4611
+    "emissionen2024": 4000,
+    "emissionen2023": 4611
   },
   {
     "unternehmen": "Silicon Valley Softworks",
     "branche": "Softwareentwicklung",
     "land": "USA",
     "kontinent": "Nordamerika",
-    "co2_emissionen_2024": 2300,
-    "co2_emissionen_2023": 1977
+    "emissionen2024": 2300,
+    "emissionen2023": 1977
   },
   {
     "unternehmen": "Tokyo Auto Manufacturing",
     "branche": "Automobilindustrie",
     "land": "Japan",
     "kontinent": "Asien",
-    "co2_emissionen_2024": 76000,
-    "co2_emissionen_2023": 68445
+    "emissionen2024": 76000,
+    "emissionen2023": 68445
   },
   {
     "unternehmen": "EcoVision Packaging",
     "branche": "Verpackungsindustrie",
     "land": "Kanada",
     "kontinent": "Nordamerika",
-    "co2_emissionen_2024": 5500,
-    "co2_emissionen_2023": 4765
+    "emissionen2024": 5500,
+    "emissionen2023": 4765
   },
   {
     "unternehmen": "Frankfurter Finanzdienst AG",
     "branche": "Finanzdienstleistungen",
     "land": "Deutschland",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 1800,
-    "co2_emissionen_2023": 1632
+    "emissionen2024": 1800,
+    "emissionen2023": 1632
   },
   {
     "unternehmen": "Rio Verde Agroindustries",
     "branche": "Landwirtschaft",
     "land": "Brasilien",
     "kontinent": "Südamerika",
-    "co2_emissionen_2024": 32000,
-    "co2_emissionen_2023": 33600
+    "emissionen2024": 32000,
+    "emissionen2023": 33600
   },
   {
     "unternehmen": "Sydney Urban Builders",
     "branche": "Bauindustrie",
     "land": "Australien",
     "kontinent": "Ozeanien",
-    "co2_emissionen_2024": 46000,
-    "co2_emissionen_2023": 53050
+    "emissionen2024": 46000,
+    "emissionen2023": 53050
   },
   {
     "unternehmen": "Münchner Software GmbH",
     "branche": "IT-Dienstleistungen",
     "land": "Deutschland",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 2100,
-    "co2_emissionen_2023": 2352
+    "emissionen2024": 2100,
+    "emissionen2023": 2352
   },
   {
     "unternehmen": "Evergreen Textiles Ltd.",
     "branche": "Textilindustrie",
     "land": "Indien",
     "kontinent": "Asien",
-    "co2_emissionen_2024": 28000,
-    "co2_emissionen_2023": 29735
+    "emissionen2024": 28000,
+    "emissionen2023": 29735
   },
   {
     "unternehmen": "OceanBlue Fisheries",
     "branche": "Fischerei",
     "land": "Norwegen",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 6000,
-    "co2_emissionen_2023": 6905
+    "emissionen2024": 6000,
+    "emissionen2023": 6905
   },
   {
     "unternehmen": "Silicon Dynamics Corp.",
     "branche": "Halbleiterindustrie",
     "land": "USA",
     "kontinent": "Nordamerika",
-    "co2_emissionen_2024": 88000,
-    "co2_emissionen_2023": 88000
+    "emissionen2024": 88000,
+    "emissionen2023": 88000
   },
   {
     "unternehmen": "Parisian Luxe Fashion",
     "branche": "Modeindustrie",
     "land": "Frankreich",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 7500,
-    "co2_emissionen_2023": 8623
+    "emissionen2024": 7500,
+    "emissionen2023": 8623
   },
   {
     "unternehmen": "Dakar Solar Innovations",
     "branche": "Erneuerbare Energien",
     "land": "Senegal",
     "kontinent": "Afrika",
-    "co2_emissionen_2024": 900,
-    "co2_emissionen_2023": 950
+    "emissionen2024": 900,
+    "emissionen2023": 950
   },
   {
     "unternehmen": "Cape Town Mining Corp.",
     "branche": "Bergbau",
     "land": "Südafrika",
     "kontinent": "Afrika",
-    "co2_emissionen_2024": 102000,
-    "co2_emissionen_2023": 117300
+    "emissionen2024": 102000,
+    "emissionen2023": 117300
   },
   {
     "unternehmen": "Seoul Cybernetics",
     "branche": "Robotik",
     "land": "Südkorea",
     "kontinent": "Asien",
-    "co2_emissionen_2024": 42000,
-    "co2_emissionen_2023": 47905
+    "emissionen2024": 42000,
+    "emissionen2023": 47905
   },
   {
     "unternehmen": "Buenos Aires Agritech",
     "branche": "Landwirtschaftstechnologie",
     "land": "Argentinien",
     "kontinent": "Südamerika",
-    "co2_emissionen_2024": 14000,
-    "co2_emissionen_2023": 14000
+    "emissionen2024": 14000,
+    "emissionen2023": 14000
   },
   {
     "unternehmen": "London Financial Holdings",
     "branche": "Finanzdienstleistungen",
-    "land": "Vereinigtes Königreich",
+    "land": "UK",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 1700,
-    "co2_emissionen_2023": 1850
+    "emissionen2024": 1700,
+    "emissionen2023": 1850
   },
   {
     "unternehmen": "Berlin CleanTech Solutions",
     "branche": "Umwelttechnik",
     "land": "Deutschland",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 3000,
-    "co2_emissionen_2023": 3490
+    "emissionen2024": 3000,
+    "emissionen2023": 3490
   },
   {
     "unternehmen": "Montreal Paper Products",
     "branche": "Papierindustrie",
     "land": "Kanada",
     "kontinent": "Nordamerika",
-    "co2_emissionen_2024": 15000,
-    "co2_emissionen_2023": 16500
+    "emissionen2024": 15000,
+    "emissionen2023": 16500
   },
   {
     "unternehmen": "Istanbul Textile Mills",
     "branche": "Textilindustrie",
     "land": "Türkei",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 29000,
-    "co2_emissionen_2023": 30500
+    "emissionen2024": 29000,
+    "emissionen2023": 30500
   },
   {
     "unternehmen": "Bangkok Energy Solutions",
     "branche": "Energieversorgung",
     "land": "Thailand",
     "kontinent": "Asien",
-    "co2_emissionen_2024": 53000,
-    "co2_emissionen_2023": 53000
+    "emissionen2024": 53000,
+    "emissionen2023": 53000
   },
   {
     "unternehmen": "Moscow Logistics Corp.",
     "branche": "Transport & Logistik",
     "land": "Russland",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 37000,
-    "co2_emissionen_2023": 38900
+    "emissionen2024": 37000,
+    "emissionen2023": 38900
   },
   {
     "unternehmen": "Lima Green Foods",
     "branche": "Lebensmittelindustrie",
     "land": "Peru",
     "kontinent": "Südamerika",
-    "co2_emissionen_2024": 4000,
-    "co2_emissionen_2023": 4160
+    "emissionen2024": 4000,
+    "emissionen2023": 4160
   },
   {
     "unternehmen": "Dubai Solar Tech",
     "branche": "Erneuerbare Energien",
-    "land": "Vereinigte Arabische Emirate",
+    "land": "VAE",
     "kontinent": "Asien",
-    "co2_emissionen_2024": 1300,
-    "co2_emissionen_2023": 1300
+    "emissionen2024": 1300,
+    "emissionen2023": 1300
   },
   {
     "unternehmen": "Madrid Construction Group",
     "branche": "Bauindustrie",
     "land": "Spanien",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 47000,
-    "co2_emissionen_2023": 42300
+    "emissionen2024": 47000,
+    "emissionen2023": 42300
   },
   {
     "unternehmen": "Helsinki IT Services",
     "branche": "IT-Dienstleistungen",
     "land": "Finnland",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 2200,
-    "co2_emissionen_2023": 2000
+    "emissionen2024": 2200,
+    "emissionen2023": 2000
   },
   {
     "unternehmen": "Jakarta Food Processing",
     "branche": "Lebensmittelverarbeitung",
     "land": "Indonesien",
     "kontinent": "Asien",
-    "co2_emissionen_2024": 12000,
-    "co2_emissionen_2023": 11000
+    "emissionen2024": 12000,
+    "emissionen2023": 11000
   },
   {
     "unternehmen": "Chicago Industrial Metals",
     "branche": "Metallverarbeitung",
     "land": "USA",
     "kontinent": "Nordamerika",
-    "co2_emissionen_2024": 86000,
-    "co2_emissionen_2023": 78100
+    "emissionen2024": 86000,
+    "emissionen2023": 78100
   },
   {
     "unternehmen": "Köln Pharma AG",
     "branche": "Pharmaindustrie",
     "land": "Deutschland",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 11000,
-    "co2_emissionen_2023": 10200
+    "emissionen2024": 11000,
+    "emissionen2023": 10200
   },
   {
     "unternehmen": "Singapore Biotech Innovations",
     "branche": "Biotechnologie",
     "land": "Singapur",
     "kontinent": "Asien",
-    "co2_emissionen_2024": 4000,
-    "co2_emissionen_2023": 3620
+    "emissionen2024": 4000,
+    "emissionen2023": 3620
   },
   {
     "unternehmen": "Rio Tech Hardware",
     "branche": "Elektronikfertigung",
     "land": "Brasilien",
     "kontinent": "Südamerika",
-    "co2_emissionen_2024": 48000,
-    "co2_emissionen_2023": 45600
+    "emissionen2024": 48000,
+    "emissionen2023": 45600
   },
   {
     "unternehmen": "Cape Verde Wind Power",
     "branche": "Erneuerbare Energien",
     "land": "Kap Verde",
     "kontinent": "Afrika",
-    "co2_emissionen_2024": 800,
-    "co2_emissionen_2023": 952
+    "emissionen2024": 800,
+    "emissionen2023": 952
   },
   {
     "unternehmen": "Warsaw Steelworks",
     "branche": "Stahlindustrie",
     "land": "Polen",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 98000,
-    "co2_emissionen_2023": 107800
+    "emissionen2024": 98000,
+    "emissionen2023": 107800
   },
   {
     "unternehmen": "Lisbon Textiles Ltd.",
     "branche": "Textilindustrie",
     "land": "Portugal",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 26000,
-    "co2_emissionen_2023": 29150
+    "emissionen2024": 26000,
+    "emissionen2023": 29150
   },
   {
     "unternehmen": "Mexico City Auto Parts",
     "branche": "Automobilzulieferer",
     "land": "Mexiko",
     "kontinent": "Nordamerika",
-    "co2_emissionen_2024": 62000,
-    "co2_emissionen_2023": 68200
+    "emissionen2024": 62000,
+    "emissionen2023": 68200
   },
   {
     "unternehmen": "Auckland Fisheries Ltd.",
     "branche": "Fischerei",
     "land": "Neuseeland",
     "kontinent": "Ozeanien",
-    "co2_emissionen_2024": 5800,
-    "co2_emissionen_2023": 5300
+    "emissionen2024": 5800,
+    "emissionen2023": 5300
   },
   {
     "unternehmen": "Hanoi Eco Farms",
     "branche": "Landwirtschaft",
     "land": "Vietnam",
     "kontinent": "Asien",
-    "co2_emissionen_2024": 5000,
-    "co2_emissionen_2023": 5300
+    "emissionen2024": 5000,
+    "emissionen2023": 5300
   },
   {
     "unternehmen": "Milan Fashion House",
     "branche": "Modeindustrie",
     "land": "Italien",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 7200,
-    "co2_emissionen_2023": 6900
+    "emissionen2024": 7200,
+    "emissionen2023": 6900
   },
   {
     "unternehmen": "Cairo Cement Works",
     "branche": "Zementindustrie",
     "land": "Ägypten",
     "kontinent": "Afrika",
-    "co2_emissionen_2024": 92000,
-    "co2_emissionen_2023": 96500
+    "emissionen2024": 92000,
+    "emissionen2023": 96500
   },
   {
     "unternehmen": "Oslo Clean Energy",
     "branche": "Erneuerbare Energien",
     "land": "Norwegen",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 1100,
-    "co2_emissionen_2023": 1100
+    "emissionen2024": 1100,
+    "emissionen2023": 1100
   },
   {
     "unternehmen": "Amsterdam Software Solutions",
     "branche": "Softwareentwicklung",
     "land": "Niederlande",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 2400,
-    "co2_emissionen_2023": 2200
+    "emissionen2024": 2400,
+    "emissionen2023": 2200
   },
   {
     "unternehmen": "Lagos Petrochemicals",
     "branche": "Chemieindustrie",
     "land": "Nigeria",
     "kontinent": "Afrika",
-    "co2_emissionen_2024": 97000,
-    "co2_emissionen_2023": 98000
+    "emissionen2024": 97000,
+    "emissionen2023": 98000
   },
   {
     "unternehmen": "Vancouver Paperworks",
     "branche": "Papierindustrie",
     "land": "Kanada",
     "kontinent": "Nordamerika",
-    "co2_emissionen_2024": 14500,
-    "co2_emissionen_2023": 16000
+    "emissionen2024": 14500,
+    "emissionen2023": 16000
   },
   {
     "unternehmen": "Seville Olive Oil Co.",
     "branche": "Lebensmittelindustrie",
     "land": "Spanien",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 3500,
-    "co2_emissionen_2023": 3600
+    "emissionen2024": 3500,
+    "emissionen2023": 3600
   },
   {
     "unternehmen": "Jakarta Logistics",
     "branche": "Transport & Logistik",
     "land": "Indonesien",
     "kontinent": "Asien",
-    "co2_emissionen_2024": 34000,
-    "co2_emissionen_2023": 37500
+    "emissionen2024": 34000,
+    "emissionen2023": 37500
   },
   {
     "unternehmen": "Mumbai Textile Mills",
     "branche": "Textilindustrie",
     "land": "Indien",
     "kontinent": "Asien",
-    "co2_emissionen_2024": 28000,
-    "co2_emissionen_2023": 25800
+    "emissionen2024": 28000,
+    "emissionen2023": 25800
   },
   {
     "unternehmen": "Zurich Financial Services",
     "branche": "Finanzdienstleistungen",
     "land": "Schweiz",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 1600,
-    "co2_emissionen_2023": 1760
+    "emissionen2024": 1600,
+    "emissionen2023": 1760
   },
   {
     "unternehmen": "Osaka Electronics",
     "branche": "Elektronikfertigung",
     "land": "Japan",
     "kontinent": "Asien",
-    "co2_emissionen_2024": 49000,
-    "co2_emissionen_2023": 46000
+    "emissionen2024": 49000,
+    "emissionen2023": 46000
   },
   {
     "unternehmen": "Brussels Green Textiles",
     "branche": "Textilindustrie",
     "land": "Belgien",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 25000,
-    "co2_emissionen_2023": 26700
+    "emissionen2024": 25000,
+    "emissionen2023": 26700
   },
   {
     "unternehmen": "Buenos Aires Transport",
     "branche": "Transport & Logistik",
     "land": "Argentinien",
     "kontinent": "Südamerika",
-    "co2_emissionen_2024": 37000,
-    "co2_emissionen_2023": 40000
+    "emissionen2024": 37000,
+    "emissionen2023": 40000
   },
   {
     "unternehmen": "Auckland Clean Energy",
     "branche": "Erneuerbare Energien",
     "land": "Neuseeland",
     "kontinent": "Ozeanien",
-    "co2_emissionen_2024": 900,
-    "co2_emissionen_2023": 850
+    "emissionen2024": 900,
+    "emissionen2023": 850
   },
 
   {
@@ -437,207 +437,207 @@
     "branche": "Pharmaindustrie",
     "land": "Frankreich",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 11500,
-    "co2_emissionen_2023": 11200
+    "emissionen2024": 11500,
+    "emissionen2023": 11200
   },
   {
     "unternehmen": "San Francisco Tech Hub",
     "branche": "Softwareentwicklung",
     "land": "USA",
     "kontinent": "Nordamerika",
-    "co2_emissionen_2024": 2200,
-    "co2_emissionen_2023": 2500
+    "emissionen2024": 2200,
+    "emissionen2023": 2500
   },
   {
     "unternehmen": "Berlin Green Energy",
     "branche": "Erneuerbare Energien",
     "land": "Deutschland",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 1300,
-    "co2_emissionen_2023": 1300
+    "emissionen2024": 1300,
+    "emissionen2023": 1300
   },
   {
     "unternehmen": "Shanghai Heavy Machinery",
     "branche": "Maschinenbau",
     "land": "China",
     "kontinent": "Asien",
-    "co2_emissionen_2024": 94000,
-    "co2_emissionen_2023": 97000
+    "emissionen2024": 94000,
+    "emissionen2023": 97000
   },
   {
     "unternehmen": "Helsinki Paperworks",
     "branche": "Papierindustrie",
     "land": "Finnland",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 14000,
-    "co2_emissionen_2023": 15000
+    "emissionen2024": 14000,
+    "emissionen2023": 15000
   },
   {
     "unternehmen": "Lagos Food Processing",
     "branche": "Lebensmittelverarbeitung",
     "land": "Nigeria",
     "kontinent": "Afrika",
-    "co2_emissionen_2024": 12000,
-    "co2_emissionen_2023": 11500
+    "emissionen2024": 12000,
+    "emissionen2023": 11500
   },
   {
     "unternehmen": "NordicWave Energy",
     "branche": "Erneuerbare Energien",
     "land": "Norwegen",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 3500,
-    "co2_emissionen_2023": 3800
+    "emissionen2024": 3500,
+    "emissionen2023": 3800
   },
   {
     "unternehmen": "SierraVista Mining",
     "branche": "Bergbau",
     "land": "USA",
     "kontinent": "Nordamerika",
-    "co2_emissionen_2024": 95000,
-    "co2_emissionen_2023": 91000
+    "emissionen2024": 95000,
+    "emissionen2023": 91000
   },
   {
     "unternehmen": "EcoBau GmbH",
     "branche": "Bauwirtschaft",
     "land": "Deutschland",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 12000,
-    "co2_emissionen_2023": 13200
+    "emissionen2024": 12000,
+    "emissionen2023": 13200
   },
   {
     "unternehmen": "Tokai Electronics",
     "branche": "Elektronikfertigung",
     "land": "Japan",
     "kontinent": "Asien",
-    "co2_emissionen_2024": 21000,
-    "co2_emissionen_2023": 19800
+    "emissionen2024": 21000,
+    "emissionen2023": 19800
   },
   {
     "unternehmen": "Viento Logistics",
     "branche": "Logistik",
     "land": "Spanien",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 15000,
-    "co2_emissionen_2023": 16200
+    "emissionen2024": 15000,
+    "emissionen2023": 16200
   },
   {
     "unternehmen": "MapleLeaf Foods",
     "branche": "Lebensmittelproduktion",
     "land": "Kanada",
     "kontinent": "Nordamerika",
-    "co2_emissionen_2024": 22000,
-    "co2_emissionen_2023": 21000
+    "emissionen2024": 22000,
+    "emissionen2023": 21000
   },
   {
     "unternehmen": "GreenCore Textiles",
     "branche": "Textilindustrie",
     "land": "Bangladesch",
     "kontinent": "Asien",
-    "co2_emissionen_2024": 5000,
-    "co2_emissionen_2023": 5400
+    "emissionen2024": 5000,
+    "emissionen2023": 5400
   },
   {
     "unternehmen": "QuantumSoft Inc.",
     "branche": "Softwareentwicklung",
     "land": "USA",
     "kontinent": "Nordamerika",
-    "co2_emissionen_2024": 500,
-    "co2_emissionen_2023": 550
+    "emissionen2024": 500,
+    "emissionen2023": 550
   },
   {
     "unternehmen": "KraftWerk Automobil",
     "branche": "Automobilherstellung",
     "land": "Deutschland",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 80000,
-    "co2_emissionen_2023": 83000
+    "emissionen2024": 80000,
+    "emissionen2023": 83000
   },
   {
     "unternehmen": "Lakeside Apparel",
     "branche": "Bekleidungsindustrie",
     "land": "Irland",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 7000,
-    "co2_emissionen_2023": 7100
+    "emissionen2024": 7000,
+    "emissionen2023": 7100
   },
   {
     "unternehmen": "Harbor Freight Shipping",
     "branche": "Transport und Logistik",
     "land": "USA",
     "kontinent": "Nordamerika",
-    "co2_emissionen_2024": 45000,
-    "co2_emissionen_2023": 44000
+    "emissionen2024": 45000,
+    "emissionen2023": 44000
   },
   {
     "unternehmen": "Solaris Innovations",
     "branche": "Erneuerbare Energien",
     "land": "Australien",
     "kontinent": "Ozeanien",
-    "co2_emissionen_2024": 3000,
-    "co2_emissionen_2023": 3100
+    "emissionen2024": 3000,
+    "emissionen2023": 3100
   },
   {
     "unternehmen": "Metallkraft AG",
     "branche": "Metallverarbeitung",
     "land": "Schweiz",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 27000,
-    "co2_emissionen_2023": 28500
+    "emissionen2024": 27000,
+    "emissionen2023": 28500
   },
   {
     "unternehmen": "Amazonia Agro",
     "branche": "Landwirtschaft",
     "land": "Brasilien",
     "kontinent": "Südamerika",
-    "co2_emissionen_2024": 10000,
-    "co2_emissionen_2023": 10000
+    "emissionen2024": 10000,
+    "emissionen2023": 10000
   },
   {
     "unternehmen": "BluePeak Chemicals",
     "branche": "Chemieindustrie",
     "land": "Kanada",
     "kontinent": "Nordamerika",
-    "co2_emissionen_2024": 35000,
-    "co2_emissionen_2023": 34000
+    "emissionen2024": 35000,
+    "emissionen2023": 34000
   },
   {
     "unternehmen": "EcoVision Media",
     "branche": "Medien und Unterhaltung",
     "land": "Schweden",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 800,
-    "co2_emissionen_2023": 900
+    "emissionen2024": 800,
+    "emissionen2023": 900
   },
   {
     "unternehmen": "Ironclad Steelworks",
     "branche": "Stahlindustrie",
     "land": "Südafrika",
     "kontinent": "Afrika",
-    "co2_emissionen_2024": 60000,
-    "co2_emissionen_2023": 62000
+    "emissionen2024": 60000,
+    "emissionen2023": 62000
   },
   {
     "unternehmen": "Zenith Pharmaceuticals",
     "branche": "Pharmaindustrie",
     "land": "Indien",
     "kontinent": "Asien",
-    "co2_emissionen_2024": 13000,
-    "co2_emissionen_2023": 12700
+    "emissionen2024": 13000,
+    "emissionen2023": 12700
   },
   {
     "unternehmen": "EverGreen Consulting",
     "branche": "Beratung",
     "land": "Kanada",
     "kontinent": "Nordamerika",
-    "co2_emissionen_2024": 400,
-    "co2_emissionen_2023": 430
+    "emissionen2024": 400,
+    "emissionen2023": 430
   },
   {
     "unternehmen": "NordTech Robotics",
     "branche": "Maschinenbau",
     "land": "Finnland",
     "kontinent": "Europa",
-    "co2_emissionen_2024": 11000,
-    "co2_emissionen_2023": 11300
+    "emissionen2024": 11000,
+    "emissionen2023": 11300
   }
 ]
