@@ -1,4 +1,7 @@
 import { useState } from 'react'
+import IconButton from '@mui/material/IconButton'
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward'
+import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward'
 import rawData from '../../../data/emission-data.json'
 import useDataProcessor from '../hooks/useDataProcessor.jsx'
 
@@ -45,6 +48,26 @@ export default function EmissionData() {
     console.log('sortSettings: ', sortSettings)
   }
 
+  function addSortButton(label) {
+    return (
+      <IconButton
+        aria-label={
+          sortSettings.unternehmen === 'asc'
+            ? `Sortiere ${label} aufsteigend`
+            : `Sortiere ${label} absteigend`
+        }
+        size="small"
+        onClick={() => sortList(label.toLowerCase())}
+      >
+        {sortSettings[label] === 'asc' ? (
+          <ArrowDownwardIcon fontSize="inherit" />
+        ) : (
+          <ArrowUpwardIcon fontSize="inherit" />
+        )}
+      </IconButton>
+    )
+  }
+
   return (
     <div className="bg-amber-300 py-24 px-12">
       <table>
@@ -53,58 +76,37 @@ export default function EmissionData() {
             <th scope="col" className="px-2">
               <div className="flex items-center">
                 Unternehmen
-                <button
-                  className="ml-2"
-                  onClick={() => sortList('unternehmen')}
-                >
-                  {sortSettings.unternehmen === 'asc' ? '^' : '°'}
-                </button>
+                {addSortButton('unternehmen')}
               </div>
             </th>
             <th scope="col" className="px-2">
               <div className="flex items-center">
                 Branche
-                <button className="ml-2" onClick={() => sortList('branche')}>
-                  {sortSettings.branche === 'asc' ? '^' : '°'}
-                </button>
+                {addSortButton('branche')}
               </div>
             </th>
             <th scope="col" className="px-2">
               <div className="flex items-center">
                 Land
-                <button className="ml-2" onClick={() => sortList('land')}>
-                  {sortSettings.land === 'asc' ? '^' : '°'}
-                </button>
+                {addSortButton('land')}
               </div>
             </th>
             <th scope="col" className="px-2">
               <div className="flex items-center">
                 Kontinent
-                <button className="ml-2" onClick={() => sortList('kontinent')}>
-                  {sortSettings.kontinent === 'asc' ? '^' : '°'}
-                </button>
+                {addSortButton('kontinent')}
               </div>
             </th>
             <th scope="col" className="px-2">
               <div className="flex items-center">
                 Emissionen 2024 (t CO₂)
-                <button
-                  className="ml-2"
-                  onClick={() => sortList('co2_emissionen_2024')}
-                >
-                  {sortSettings.co2_emissionen_2024 === 'asc' ? '^' : '°'}
-                </button>
+                {addSortButton('co2_emissionen_2024')}
               </div>
             </th>
             <th scope="col" className="px-2">
               <div className="flex items-center">
                 Veränderung zum Vorjahr (%)
-                <button
-                  className="ml-2"
-                  onClick={() => sortList('co2ChangeInPercent')}
-                >
-                  {sortSettings.co2ChangeInPercent === 'asc' ? '^' : '°'}
-                </button>
+                {addSortButton('co2ChangeInPercent')}
               </div>
             </th>
           </tr>
