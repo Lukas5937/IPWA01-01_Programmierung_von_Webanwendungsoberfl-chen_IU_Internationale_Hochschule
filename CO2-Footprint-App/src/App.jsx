@@ -1,7 +1,7 @@
-import './App.css'
-import { Routes, Route } from 'react-router'
-import Navigation from './Navigation'
-import Homepage from './pages/home/Homepage'
+import "./App.css";
+import { Routes, Route } from "react-router";
+import Navigation from "./Navigation";
+import Homepage from "./pages/home/Homepage";
 
 function App() {
   return (
@@ -9,11 +9,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Navigation />}>
           <Route index element={<Homepage />} />
-          {/* <Route path="/kontakt" element={<Kontakt />} /> */}
         </Route>
       </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

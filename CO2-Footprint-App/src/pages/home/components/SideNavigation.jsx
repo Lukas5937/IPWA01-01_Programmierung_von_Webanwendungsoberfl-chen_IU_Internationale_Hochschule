@@ -1,21 +1,21 @@
-import { useState } from 'react'
-import IconButton from '@mui/material/IconButton'
-import MenuIcon from '@mui/icons-material/Menu'
-import Drawer from '@mui/material/Drawer'
-import Box from '@mui/material/Box'
-import List from '@mui/material/List'
-import ListItem from '@mui/material/ListItem'
+import { useState } from "react";
+import IconButton from "@mui/material/IconButton";
+import MenuIcon from "@mui/icons-material/Menu";
+import Drawer from "@mui/material/Drawer";
+import Box from "@mui/material/Box";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
 
 export default function SideNavigation() {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
 
   const toggleDrawer = (newOpen) => () => {
-    setOpen(newOpen)
-  }
+    setOpen(newOpen);
+  };
 
   const DrawerList = (
     <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
-      <List className="font-thin text-slate-900 tracking-tighter uppercase">
+      <List className="font-thin tracking-tighter text-slate-900 uppercase">
         <ListItem key="seitenAnfang" disablePadding className="mt-8 px-2">
           <a href="#seitenAnfang">Seitenanfang</a>
         </ListItem>
@@ -35,14 +35,14 @@ export default function SideNavigation() {
         </ListItem>
       </List>
     </Box>
-  )
+  );
 
   return (
     <nav
-      className="fixed top-2 xl:top-20 ltr:left-2 rtl:right-2 "
+      className="fixed top-2 xl:top-20 ltr:left-2 rtl:right-2"
       aria-label="page navigation"
     >
-      <div className="hidden xl:block 2xl:text-xl font-thin text-slate-900 tracking-tighter uppercase">
+      <div className="hidden font-thin tracking-tighter text-slate-900 uppercase xl:block 2xl:text-xl">
         <ul>
           <li className="hover:text-slate-500">
             <a href="#seitenAnfang">Seitenanfang</a>
@@ -62,11 +62,11 @@ export default function SideNavigation() {
         <Drawer
           open={open}
           onClose={toggleDrawer(false)}
-          anchor={document.documentElement.dir === 'rtl' ? 'right' : 'left'}
+          anchor={document.documentElement.dir === "rtl" ? "right" : "left"}
         >
           {DrawerList}
         </Drawer>
       </div>
     </nav>
-  )
+  );
 }

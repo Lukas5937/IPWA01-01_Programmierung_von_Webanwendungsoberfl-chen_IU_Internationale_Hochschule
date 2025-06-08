@@ -1,21 +1,21 @@
-import { Outlet } from 'react-router-dom'
+import { Outlet } from "react-router-dom";
 
 export default function Navigation() {
   return (
     <>
       <header id="seitenAnfang">
         <nav
-          className="px-2 sm:px-4 py-4 bg-slate-200 text-slate-700 text-sm sm:text-base"
+          className="bg-slate-200 px-2 py-4 text-sm text-slate-700 sm:px-4 sm:text-base"
           aria-label="global navigation"
         >
-          <ul className="flex mx-auto w-full max-w-screen-2xl">
-            <li className="ltr:ml-auto rtl:mr-auto ml-2 hover:text-slate-500">
+          <ul className="mx-auto flex w-full max-w-screen-2xl">
+            <li className="ml-2 hover:text-slate-500 ltr:ml-auto rtl:mr-auto">
               <a href="/">Instagram</a>
             </li>
-            <li className="ml-2 sm:ml-4 hover:text-slate-500">
+            <li className="ml-2 hover:text-slate-500 sm:ml-4">
               <a href="/">Facebook</a>
             </li>
-            <li className="ml-2 sm:ml-4 hover:text-slate-500">
+            <li className="ml-2 hover:text-slate-500 sm:ml-4">
               <a href="mailto:co2atlas@beispiel.de">Email</a>
             </li>
           </ul>
@@ -25,5 +25,5 @@ export default function Navigation() {
         <Outlet />
       </main>
     </>
-  )
+  );
 }

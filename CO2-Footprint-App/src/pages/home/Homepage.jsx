@@ -1,7 +1,7 @@
-import SideNavigation from './components/SideNavigation'
-import Hero from './sections/Hero'
-import EmissionData from './sections/EmissionData'
-import Footer from './sections/Footer'
+import SideNavigation from "./components/SideNavigation";
+import Hero from "./sections/Hero";
+import EmissionData from "./sections/EmissionData";
+import Footer from "./sections/Footer";
 
 export default function Homepage() {
   return (
@@ -17,5 +17,5 @@ export default function Homepage() {
         </div>
       </div>
     </>
-  )
+  );
 }
