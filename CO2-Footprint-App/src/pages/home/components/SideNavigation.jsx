@@ -1,6 +1,6 @@
 export default function SideNavigation() {
   return (
-    <nav className="pl-4 pr-2 py-4 fixed top-16 text-lg font-thin text-slate-900 tracking-tighter uppercase">
+    <nav className="pr-2 py-4 fixed top-16 ltr:left-2 rtl:right-2 text-lg font-thin text-slate-900 tracking-tighter uppercase">
       <ul>
         <li className="hover:text-slate-500">
           <a href="#seitenAnfang">Seitenanfang</a>

@@ -12,9 +12,9 @@ export default function Homepage() {
         <div id="emissionsVergleich">
           <EmissionData />
         </div>
-      </div>
-      <div id="weitereInformationen">
-        <Footer />
+        <div id="weitereInformationen">
+          <Footer />
+        </div>
       </div>
     </>
   )

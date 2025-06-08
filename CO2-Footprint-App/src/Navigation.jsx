@@ -5,7 +5,7 @@ export default function Navigation() {
     <>
       <header id="seitenAnfang">
         <nav className="p-4 bg-slate-200 text-slate-700">
-          <ul className="flex  w-full">
+          <ul className="flex">
             <li className="ml-auto hover:text-slate-500">
               <Link to="/">Instagram</Link>
             </li>
