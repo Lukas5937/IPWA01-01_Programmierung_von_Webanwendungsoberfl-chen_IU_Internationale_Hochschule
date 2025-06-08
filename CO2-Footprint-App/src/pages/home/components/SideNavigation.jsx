@@ -1,17 +1,15 @@
-import { Link } from 'react-router-dom'
-
 export default function SideNavigation() {
   return (
-    <nav className="pl-4 pr-8 py-4 bg-slate-100">
+    <nav className="pl-4 pr-2 py-4 fixed top-16 text-lg font-thin text-slate-900 tracking-tighter uppercase">
       <ul>
-        <li className=" hover:text-neutral-500">
-          <Link to="/">Hero</Link>
+        <li className="hover:text-slate-500">
+          <a href="#seitenAnfang">Seitenanfang</a>
         </li>
-        <li className="hover:text-neutral-500">
-          <Link to="/">Data</Link>
+        <li className="mt-8 hover:text-slate-500">
+          <a href="#emissionsVergleich">CO₂ Emissionsvergleich</a>
         </li>
-        <li className="hover:text-neutral-500">
-          <Link to="/kontakt">Footer</Link>
+        <li className="mt-8 hover:text-slate-500">
+          <a href="#weitereInformationen">Weitere Informationen</a>
         </li>
       </ul>
     </nav>

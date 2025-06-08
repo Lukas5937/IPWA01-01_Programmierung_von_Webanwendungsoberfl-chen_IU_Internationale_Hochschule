@@ -135,7 +135,7 @@ export default function EmissionData() {
   }
 
   return (
-    <div className="bg-[#2e6061] py-24 px-12 ">
+    <div className="bg-[#2e6061] py-24 pl-64 pr-8 min-h-screen">
       <table>
         <thead className="text-slate-300">
           <tr className="border-b border-emerald-100">

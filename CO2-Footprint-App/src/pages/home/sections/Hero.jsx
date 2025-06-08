@@ -2,13 +2,13 @@ import atlasImage from '../../../assets/C02-Atlas.png'
 
 export default function Hero() {
   return (
-    <section className="pt-28 pb-40 px-24 bg-slate-50">
-      <div className="max-w-4xl">
-        <div className="flex items-center">
+    <section className="pt-28 pb-40 bg-slate-50">
+      <div className="flex flex-col items-center w-full">
+        <div className="flex items-center justify-center">
           <img src={atlasImage} alt="CO₂ Atlas Logo" className="w-48" />
           <div className="ml-4">
             <h1 className="text-5xl md:text-7xl max-w-md lg:max-w-full font-bold leading-snug bg-gradient-to-r from-[#2A7E80]  to-[#5ccfd1] text-transparent bg-clip-text">
-              CO<span className="text-2xl align-sub">2</span> Atlas
+              CO<span className="text-3xl align-sub">2</span> Atlas
             </h1>
             <h2 className="ml-4 text-3xl font-medium text-gray-500 max-w-2xl">
               Klimadaten auf einen Blick
@@ -17,7 +17,7 @@ export default function Hero() {
         </div>
         <p className="text-xl mt-12 font-medium text-gray-500 max-w-2xl">
           Entdecke, welche Länder und Unternehmen den größten CO₂-Ausstoß
-          verursachen – transparent, verständlich, öffentlich zugänglich.
+          verursachen – transparent, verständlich und öffentlich zugänglich.
         </p>
       </div>
     </section>

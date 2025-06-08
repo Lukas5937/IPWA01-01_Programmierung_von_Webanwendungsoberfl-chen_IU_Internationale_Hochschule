@@ -6,14 +6,16 @@ import Footer from './sections/Footer'
 export default function Homepage() {
   return (
     <>
-      <div className="flex">
+      <div className="relative">
         <SideNavigation />
-        <div className="grow">
-          <Hero />
+        <Hero />
+        <div id="emissionsVergleich">
           <EmissionData />
         </div>
       </div>
-      <Footer />
+      <div id="weitereInformationen">
+        <Footer />
+      </div>
     </>
   )
 }
