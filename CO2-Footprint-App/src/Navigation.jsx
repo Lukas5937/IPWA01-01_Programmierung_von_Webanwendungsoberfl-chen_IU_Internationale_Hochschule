@@ -1,19 +1,19 @@
-import { Link, Outlet } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
 
 export default function Navigation() {
   return (
     <>
       <header id="seitenAnfang">
         <nav className="p-4 bg-slate-200 text-slate-700">
-          <ul className="flex">
+          <ul className="flex mx-auto w-full max-w-screen-2xl">
             <li className="ml-auto hover:text-slate-500">
-              <Link to="/">Instagram</Link>
+              <a href="/">Instagram</a>
             </li>
             <li className="ml-4 hover:text-slate-500">
-              <Link to="/">Facebook</Link>
+              <a href="/">Facebook</a>
             </li>
             <li className="ml-4 hover:text-slate-500">
-              <Link to="mailto:co2atlas@beispiel.de">Email</Link>
+              <a href="mailto:co2atlas@beispiel.de">Email</a>
             </li>
           </ul>
         </nav>

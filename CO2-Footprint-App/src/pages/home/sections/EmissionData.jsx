@@ -106,10 +106,15 @@ export default function EmissionData() {
     return sortedValues
   }
 
-  function addFilterDropDownList(label) {
+  function addFilterDropDownList(label, width) {
     const name = generateObjectKey(label)
     return (
-      <FormControl variant="standard" sx={{ minWidth: 126, maxWidth: 126 }}>
+      <FormControl
+        variant="standard"
+        sx={{
+          minWidth: width,
+        }}
+      >
         <InputLabel
           id={`select-${name}-label`}
           style={{ color: '#cad5e2', fontWeight: '700' }}
@@ -135,43 +140,43 @@ export default function EmissionData() {
   }
 
   return (
-    <section className="bg-[#2e6061] py-24 pl-64 pr-8 min-h-screen">
-      <table>
+    <section className="bg-[#2e6061] min-h-screen py-20 2xl:pl-36 xl:pl-48 pl-56 mx-auto table-auto">
+      <table className="mx-auto max-w-screen-2xl">
         <thead className="text-slate-300">
           <tr className="border-b border-emerald-100">
             <th scope="col">
-              <div className="flex items-end justify-between text-left">
-                {addFilterDropDownList('Unternehmen')}
+              <div className="flex items-end">
+                {addFilterDropDownList('Unternehmen', 126)}
                 {addSortButton('Unternehmen')}
               </div>
             </th>
             <th scope="col">
-              <div className="flex items-end justify-between text-left">
-                {addFilterDropDownList('Branche')}
+              <div className="flex items-end">
+                {addFilterDropDownList('Branche', 86)}
                 {addSortButton('Branche')}
               </div>
             </th>
             <th scope="col">
-              <div className="flex items-end justify-between text-left">
-                {addFilterDropDownList('Land')}
+              <div className="flex items-end">
+                {addFilterDropDownList('Land', 60)}
                 {addSortButton('Land')}
               </div>
             </th>
             <th scope="col">
-              <div className="flex items-end justify-between text-left">
-                {addFilterDropDownList('Kontinent')}
+              <div className="flex items-end">
+                {addFilterDropDownList('Kontinent', 98)}
                 {addSortButton('Kontinent')}
               </div>
             </th>
             <th scope="col">
-              <div className="flex items-end justify-between text-left">
-                Emissionen 2024
+              <div className="flex items-center mt-4">
+                <span>Emissionen 2024</span>
                 {addSortButton('Emissionen 2024')}
               </div>
             </th>
             <th scope="col">
-              <div className="flex items-end justify-between text-left">
-                Veränderung Vorjahr
+              <div className="flex items-center mt-4">
+                <span>Änd. Vorjahr</span>
                 {addSortButton('Veränderung Vorjahr')}
               </div>
             </th>
@@ -180,11 +185,11 @@ export default function EmissionData() {
         <tbody className="text-sm text-emerald-100">
           {data.map((item) => (
             <tr key={item.unternehmen}>
-              <td className="pr-8 pt-4 pb-2">{item.unternehmen}</td>
-              <td className="pr-8 py-2">{item.branche}</td>
-              <td className="pr-8 py-2">{item.land}</td>
-              <td className="pr-8 py-2">{item.kontinent}</td>
-              <td className="pr-8 py-2">
+              <td className="pr-4 py-6 w-44 align-top">{item.unternehmen}</td>
+              <td className="pr-4 py-6 w-44 align-top">{item.branche}</td>
+              <td className="pr-4 py-6 w-44 align-top">{item.land}</td>
+              <td className="pr-4 py-6 w-44 align-top">{item.kontinent}</td>
+              <td className="pr-4 py-6 w-44 align-top">
                 {Number(item.emissionen2024).toLocaleString()} t CO₂
               </td>
               <td className="pr-8 py-2">{item.veraenderungVorjahr} %</td>

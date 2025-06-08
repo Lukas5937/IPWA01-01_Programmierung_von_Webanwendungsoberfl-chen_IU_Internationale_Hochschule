@@ -3,7 +3,7 @@ import atlasImage from '../../../assets/C02-Atlas.png'
 export default function Hero() {
   return (
     <section className="pt-28 pb-40 bg-slate-50">
-      <div className="flex flex-col items-center w-full">
+      <div className="flex flex-col items-center w-full mx-auto max-w-screen-2xl">
         <div className="flex items-center justify-center">
           <img src={atlasImage} alt="CO₂ Atlas Logo" className="w-48" />
           <div className="ml-4">
