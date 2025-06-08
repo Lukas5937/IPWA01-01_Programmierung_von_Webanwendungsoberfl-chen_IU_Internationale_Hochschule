@@ -9,7 +9,7 @@ export default function Navigation() {
           aria-label="global navigation"
         >
           <ul className="flex mx-auto w-full max-w-screen-2xl">
-            <li className="ml-auto hover:text-slate-500">
+            <li className="ltr:ml-auto rtl:mr-auto ml-2 hover:text-slate-500">
               <a href="/">Instagram</a>
             </li>
             <li className="ml-2 sm:ml-4 hover:text-slate-500">

@@ -140,66 +140,70 @@ export default function EmissionData() {
   }
 
   return (
-    <section className="bg-[#2e6061] min-h-screen py-20 pr-4 pl-12 2xl:pl-36 xl:pl-56 mx-auto table-auto">
-      <table className="mx-auto max-w-screen-2xl">
-        <thead className="text-slate-300">
-          <tr className="border-b border-emerald-100">
-            <th scope="col">
-              <div className="flex items-end">
-                {addFilterDropDownList('Unternehmen', 126)}
-                {addSortButton('Unternehmen')}
-              </div>
-            </th>
-            <th scope="col">
-              <div className="flex items-end">
-                {addFilterDropDownList('Branche', 86)}
-                {addSortButton('Branche')}
-              </div>
-            </th>
-            <th scope="col">
-              <div className="flex items-end">
-                {addFilterDropDownList('Land', 60)}
-                {addSortButton('Land')}
-              </div>
-            </th>
-            <th scope="col">
-              <div className="flex items-end">
-                {addFilterDropDownList('Kontinent', 98)}
-                {addSortButton('Kontinent')}
-              </div>
-            </th>
-            <th scope="col">
-              <div className="flex items-center mt-4">
-                <span>Emissionen 2024</span>
-                {addSortButton('Emissionen 2024')}
-              </div>
-            </th>
-            <th scope="col">
-              <div className="flex items-center mt-4">
-                <span>Änd. Vorjahr</span>
-                {addSortButton('Veränderung Vorjahr')}
-              </div>
-            </th>
-          </tr>
-        </thead>
-        <tbody className="text-sm text-emerald-100">
-          {data.map((item) => (
-            <tr key={item.unternehmen}>
-              <td className="pr-4 py-6 w-44 align-top">{item.unternehmen}</td>
-              <td className="pr-4 py-6 w-44 align-top">{item.branche}</td>
-              <td className="pr-4 py-6 w-36 align-top">{item.land}</td>
-              <td className="pr-4 py-6 w-40 align-top">{item.kontinent}</td>
-              <td className="pr-4 py-6 w-44 align-top">
-                {Number(item.emissionen2024).toLocaleString()} t CO₂
-              </td>
-              <td className="py-6 w-44 align-top">
-                {item.veraenderungVorjahr} %
-              </td>
+    <section className="bg-[#2e6061] min-h-screen py-20 pr-4 ltr:pl-12 ltr:2xl:pl-36 ltr:xl:pl-56 rtl:pr-12 rtl:2xl:pr-36 rtl:xl:pr-56 mx-auto">
+      <p className="text-sm text-slate-200 mb-2 lg:hidden mb-8">
+        Horizontal scrollen, um alle Inhalte zu sehen.
+      </p>
+      <div className="w-full overflow-x-auto">
+        <table className="mx-auto">
+          <thead className="text-slate-300">
+            <tr className="border-b border-emerald-100">
+              <th scope="col">
+                <div className="flex items-end">
+                  {addFilterDropDownList('Unternehmen', 126)}
+                  {addSortButton('Unternehmen')}
+                </div>
+              </th>
+              <th scope="col">
+                <div className="flex items-end">
+                  {addFilterDropDownList('Branche', 86)}
+                  {addSortButton('Branche')}
+                </div>
+              </th>
+              <th scope="col">
+                <div className="flex items-end">
+                  {addFilterDropDownList('Land', 60)}
+                  {addSortButton('Land')}
+                </div>
+              </th>
+              <th scope="col">
+                <div className="flex items-end">
+                  {addFilterDropDownList('Kontinent', 98)}
+                  {addSortButton('Kontinent')}
+                </div>
+              </th>
+              <th scope="col">
+                <div className="flex items-center mt-4">
+                  <span>Emissionen 2024</span>
+                  {addSortButton('Emissionen 2024')}
+                </div>
+              </th>
+              <th scope="col">
+                <div className="flex items-center mt-4">
+                  <span>Änd. Vorjahr</span>
+                  {addSortButton('Veränderung Vorjahr')}
+                </div>
+              </th>
             </tr>
-          ))}
-        </tbody>
-        <tfoot></tfoot>
-      </table>
+          </thead>
+          <tbody className="text-sm text-emerald-100">
+            {data.map((item) => (
+              <tr key={item.unternehmen}>
+                <td className="pr-4 py-6 w-44 align-top">{item.unternehmen}</td>
+                <td className="pr-4 py-6 w-44 align-top">{item.branche}</td>
+                <td className="pr-4 py-6 w-40 align-top">{item.land}</td>
+                <td className="pr-4 py-6 w-40 align-top">{item.kontinent}</td>
+                <td className="pr-4 py-6 min-w-56 align-top">
+                  {Number(item.emissionen2024).toLocaleString()} t CO₂
+                </td>
+                <td className="py-6 min-w-36 align-top">
+                  {item.veraenderungVorjahr} %
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </section>
   )
 }

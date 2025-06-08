@@ -5,8 +5,6 @@ import Drawer from '@mui/material/Drawer'
 import Box from '@mui/material/Box'
 import List from '@mui/material/List'
 import ListItem from '@mui/material/ListItem'
-import ListItemButton from '@mui/material/ListItemButton'
-import ListItemText from '@mui/material/ListItemText'
 
 export default function SideNavigation() {
   const [open, setOpen] = useState(false)
@@ -18,20 +16,20 @@ export default function SideNavigation() {
   const DrawerList = (
     <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
       <List className="font-thin text-slate-900 tracking-tighter uppercase">
-        <ListItem key="seitenAnfang" disablePadding className="mt-8 ml-2">
+        <ListItem key="seitenAnfang" disablePadding className="mt-8 px-2">
           <a href="#seitenAnfang">Seitenanfang</a>
         </ListItem>
         <ListItem
           key="emissionsVergleich"
           disablePadding
-          className="mt-12 ml-2"
+          className="mt-12 px-2"
         >
           <a href="#emissionsVergleich">CO₂ Emissionsvergleich</a>
         </ListItem>
         <ListItem
           key="rechtlicheHinweise"
           disablePadding
-          className="mt-12 ml-2"
+          className="mt-12 px-2"
         >
           <a href="#rechtlicheHinweise">Rechtliche Hinweise</a>
         </ListItem>
@@ -61,7 +59,11 @@ export default function SideNavigation() {
         <IconButton aria-label="menu" onClick={toggleDrawer(true)}>
           <MenuIcon />
         </IconButton>
-        <Drawer open={open} onClose={toggleDrawer(false)}>
+        <Drawer
+          open={open}
+          onClose={toggleDrawer(false)}
+          anchor={document.documentElement.dir === 'rtl' ? 'right' : 'left'}
+        >
           {DrawerList}
         </Drawer>
       </div>
