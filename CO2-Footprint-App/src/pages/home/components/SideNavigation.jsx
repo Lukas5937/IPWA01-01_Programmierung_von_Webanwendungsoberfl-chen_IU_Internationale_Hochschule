@@ -1,17 +1,70 @@
+import { useState } from 'react'
+import IconButton from '@mui/material/IconButton'
+import MenuIcon from '@mui/icons-material/Menu'
+import Drawer from '@mui/material/Drawer'
+import Box from '@mui/material/Box'
+import List from '@mui/material/List'
+import ListItem from '@mui/material/ListItem'
+import ListItemButton from '@mui/material/ListItemButton'
+import ListItemText from '@mui/material/ListItemText'
+
 export default function SideNavigation() {
-  return (
-    <nav className="fixed top-20 ltr:left-2 rtl:right-2 text-lg font-thin text-slate-900 tracking-tighter uppercase max-w-48">
-      <ul>
-        <li className="hover:text-slate-500">
+  const [open, setOpen] = useState(false)
+
+  const toggleDrawer = (newOpen) => () => {
+    setOpen(newOpen)
+  }
+
+  const DrawerList = (
+    <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
+      <List className="font-thin text-slate-900 tracking-tighter uppercase">
+        <ListItem key="seitenAnfang" disablePadding className="mt-8 ml-2">
           <a href="#seitenAnfang">Seitenanfang</a>
-        </li>
-        <li className="mt-12 hover:text-slate-500">
+        </ListItem>
+        <ListItem
+          key="emissionsVergleich"
+          disablePadding
+          className="mt-12 ml-2"
+        >
           <a href="#emissionsVergleich">CO₂ Emissionsvergleich</a>
-        </li>
-        <li className="mt-12 hover:text-slate-500">
+        </ListItem>
+        <ListItem
+          key="rechtlicheHinweise"
+          disablePadding
+          className="mt-12 ml-2"
+        >
           <a href="#rechtlicheHinweise">Rechtliche Hinweise</a>
-        </li>
-      </ul>
+        </ListItem>
+      </List>
+    </Box>
+  )
+
+  return (
+    <nav
+      className="fixed top-2 xl:top-20 ltr:left-2 rtl:right-2 "
+      aria-label="page navigation"
+    >
+      <div className="hidden xl:block 2xl:text-xl font-thin text-slate-900 tracking-tighter uppercase">
+        <ul>
+          <li className="hover:text-slate-500">
+            <a href="#seitenAnfang">Seitenanfang</a>
+          </li>
+          <li className="mt-12 hover:text-slate-500">
+            <a href="#emissionsVergleich">CO₂ Emissionsvergleich</a>
+          </li>
+          <li className="mt-12 hover:text-slate-500">
+            <a href="#rechtlicheHinweise">Rechtliche Hinweise</a>
+          </li>
+        </ul>
+      </div>
+      <div className="xl:hidden">
+        <IconButton aria-label="menu" onClick={toggleDrawer(true)}>
+          <MenuIcon />
+        </IconButton>
+        <Drawer open={open} onClose={toggleDrawer(false)}>
+          {DrawerList}
+        </Drawer>
+      </div>
     </nav>
   )
 }

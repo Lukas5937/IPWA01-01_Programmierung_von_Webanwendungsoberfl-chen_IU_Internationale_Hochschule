@@ -140,7 +140,7 @@ export default function EmissionData() {
   }
 
   return (
-    <section className="bg-[#2e6061] min-h-screen py-20 2xl:pl-36 xl:pl-48 pl-56 mx-auto table-auto">
+    <section className="bg-[#2e6061] min-h-screen py-20 pr-4 pl-12 2xl:pl-36 xl:pl-56 mx-auto table-auto">
       <table className="mx-auto max-w-screen-2xl">
         <thead className="text-slate-300">
           <tr className="border-b border-emerald-100">
@@ -187,12 +187,14 @@ export default function EmissionData() {
             <tr key={item.unternehmen}>
               <td className="pr-4 py-6 w-44 align-top">{item.unternehmen}</td>
               <td className="pr-4 py-6 w-44 align-top">{item.branche}</td>
-              <td className="pr-4 py-6 w-44 align-top">{item.land}</td>
-              <td className="pr-4 py-6 w-44 align-top">{item.kontinent}</td>
+              <td className="pr-4 py-6 w-36 align-top">{item.land}</td>
+              <td className="pr-4 py-6 w-40 align-top">{item.kontinent}</td>
               <td className="pr-4 py-6 w-44 align-top">
                 {Number(item.emissionen2024).toLocaleString()} t CO₂
               </td>
-              <td className="pr-8 py-2">{item.veraenderungVorjahr} %</td>
+              <td className="py-6 w-44 align-top">
+                {item.veraenderungVorjahr} %
+              </td>
             </tr>
           ))}
         </tbody>

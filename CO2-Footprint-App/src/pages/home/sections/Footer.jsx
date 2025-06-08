@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="bg-emerald-100 text-slate-700 py-24">
-      <div className="mx-auto w-full max-w-screen-md px-4 flex justify-center grid-cols-1 text-sm">
+    <footer className="bg-emerald-100 text-slate-700 py-12 sm:py-24 px-8">
+      <div className="mx-auto w-full max-w-screen-md flex-col sm:flex-row flex justify-center grid-cols-1 text-sm">
         <div className="grow">
           <h3 className="text-lg font-semibold mb-2">Über uns</h3>
           <p>
@@ -9,21 +9,21 @@ export default function Footer() {
             von Unternehmen und Ländern zu fördern.
           </p>
         </div>
-        <div className="grow mx-12">
+        <div className="grow sm:mx-12">
           <h3 className="text-lg font-semibold mb-2">Rechtliches</h3>
           <ul className="space-y-1">
             <li>
-              <a href="#" className="hover:underline">
+              <a href="" className="hover:underline">
                 Impressum
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <a href="" className="hover:underline">
                 Datenschutz
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <a href="" className="hover:underline">
                 Nutzungsbedingungen
               </a>
             </li>
@@ -43,5 +43,3 @@ export default function Footer() {
     </footer>
   )
 }
-
-// bg-[#ecefff]
