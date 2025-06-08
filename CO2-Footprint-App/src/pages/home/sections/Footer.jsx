@@ -36,6 +36,8 @@ export default function Footer() {
             <br />
             co2atlas@beispiel.de
             <br />
+            Musterstr. 123
+            <br />
             12345 Musterstadt
           </p>
         </div>
