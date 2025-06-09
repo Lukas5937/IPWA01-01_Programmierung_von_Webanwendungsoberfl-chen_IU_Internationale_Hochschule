@@ -5,7 +5,7 @@ export default function Navigation() {
     <>
       <header id="seitenAnfang">
         <nav
-          className="bg-slate-200 px-2 py-4 text-sm text-slate-700 sm:px-4 sm:text-base"
+          className="bg-slate-200 px-2 py-4 text-sm text-slate-900 sm:px-4 sm:text-base"
           aria-label="global navigation"
         >
           <ul className="mx-auto flex w-full max-w-screen-2xl">

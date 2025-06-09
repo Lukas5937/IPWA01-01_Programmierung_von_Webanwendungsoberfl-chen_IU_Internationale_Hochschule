@@ -39,10 +39,10 @@ export default function SideNavigation() {
 
   return (
     <nav
-      className="fixed top-2 xl:top-20 ltr:left-2 rtl:right-2"
+      className="fixed top-2 text-slate-900 xl:top-20 ltr:left-2 rtl:right-2"
       aria-label="page navigation"
     >
-      <div className="hidden font-thin tracking-tighter text-slate-900 uppercase xl:block 2xl:text-xl">
+      <div className="hidden font-thin tracking-tighter uppercase xl:block 2xl:text-xl">
         <ul>
           <li className="hover:text-slate-500">
             <a href="#seitenAnfang">Seitenanfang</a>
