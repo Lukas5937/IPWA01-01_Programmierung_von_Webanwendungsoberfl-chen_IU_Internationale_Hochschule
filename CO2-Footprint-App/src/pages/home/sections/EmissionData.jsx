@@ -53,7 +53,6 @@ export default function EmissionData() {
 
   function sortList(criterion) {
     const newOrder = setNewOrder(criterion);
-    console.log("newOrder: ", newOrder);
     setData((prevData) => sortData(prevData, criterion, newOrder));
   }
 
@@ -80,12 +79,7 @@ export default function EmissionData() {
         onClick={() => sortList(criterion)}
       >
         {sortSettings[criterion] === "asc" ? (
-          <ArrowDownwardIcon
-            fontSize="inherit"
-            style={{
-              color: "#cad5e2",
-            }}
-          />
+          <ArrowDownwardIcon fontSize="inherit" style={{ color: "#cad5e2" }} />
         ) : (
           <ArrowUpwardIcon fontSize="inherit" style={{ color: "#cad5e2" }} />
         )}
@@ -109,12 +103,7 @@ export default function EmissionData() {
   function addFilterDropDownList(label, width) {
     const name = generateObjectKey(label);
     return (
-      <FormControl
-        variant="standard"
-        sx={{
-          minWidth: width,
-        }}
-      >
+      <FormControl variant="standard" sx={{ minWidth: width }}>
         <InputLabel
           id={`select-${name}-label`}
           style={{ color: "#cad5e2", fontWeight: "700" }}
@@ -141,7 +130,7 @@ export default function EmissionData() {
 
   return (
     <section className="mx-auto min-h-screen bg-[#2e6061] py-20 pr-4 ltr:pl-12 ltr:xl:pl-56 ltr:2xl:pl-36 rtl:pr-12 rtl:xl:pr-56 rtl:2xl:pr-36">
-      <p className="mb-2 mb-8 text-sm text-slate-200 lg:hidden">
+      <p className="mb-8 text-sm text-slate-200 lg:hidden">
         Horizontal scrollen, um alle Inhalte zu sehen.
       </p>
       <div className="w-full overflow-x-auto">
